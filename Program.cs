@@ -6,11 +6,13 @@ using System.Threading.Tasks;
 
 namespace AddressBookSystem
 {
-     class Program
+     public class Program
     {
         static void Main(string[] args)
         {
             Console.WriteLine("----Address Book----");
+            Contacts con = new Contacts();
+            con.CreateContacts();
             Console.ReadLine();
         }
     }
