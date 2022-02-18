@@ -13,7 +13,8 @@ namespace AddressBookSystem
             Console.WriteLine("----Address Book----");
             Contacts con = new Contacts();
             con.CreateContacts();
-            Console.ReadLine();
+            con.AddContact();
+            Console.ReadKey();
         }
     }
 }
