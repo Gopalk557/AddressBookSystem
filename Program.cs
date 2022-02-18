@@ -12,8 +12,9 @@ namespace AddressBookSystem
         {
             Console.WriteLine("----Address Book----");
             Contacts con = new Contacts();
-            con.CreateContacts();
-            con.AddContact();
+            //con.CreateContacts();
+           // con.AddContact();
+            con.EditContact("Gopal");
             Console.ReadKey();
         }
     }
